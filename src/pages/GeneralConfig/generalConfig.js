@@ -8,3 +8,6 @@ class GeneralConfig extends Component{
         return(<h1>Configuration</h1>)
     }
 }
+
+
+export default GeneralConfig;

@@ -4,10 +4,30 @@ import '../Login/login.css'
 
 
 
-class Login extends Component{
+class Login extends Component {
 
-    render(){
-        return(<h1>Login</h1>)
+    render() {
+        return (
+            <div>
+
+                <form>
+
+                    <input type="text" id="username" name="username" />
+                    <br />
+
+                    <input type="password" id="pwd" name="pwd" />
+                </form>
+
+
+
+            </div >
+
+
+
+
+
+
+        )
     }
 }
 
