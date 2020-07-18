@@ -12,12 +12,14 @@ class Login extends Component {
 
                 <form>
                     <h2>Login</h2>
-                    <input type="text" id="username" name="username" placeholder='E-mail' />
+                    <input type="text" id="username" name="username" placeholder='E-mail' required />
                     <br />
 
-                    <input type="password" id="pwd" name="pwd" placeholder='Senha' />
+                    <input type="password" id="pwd" name="pwd" placeholder='Senha' required/>
                     <br />
+
                     <p>Não tenho Cadastro</p>
+                    
                     <input type="submit" value='Entrar' />
                 </form>
 
