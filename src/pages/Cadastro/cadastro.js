@@ -10,7 +10,7 @@ class Cadastro extends Component {
 
                 <form>
                     <h2>Cadastro</h2>
-                    <input type="text" id="username" name="username" placeholder='E-mail' required />
+                    <input type="email" id="username" name="username" placeholder='E-mail' required />
                     <br />
 
                     <input type="password" id="pwd" name="pwd" placeholder='Senha' required />
