@@ -8,14 +8,17 @@ class Login extends Component {
 
     render() {
         return (
-            <div>
+            <div className='container'>
 
                 <form>
-
-                    <input type="text" id="username" name="username" />
+                    <h2>Login</h2>
+                    <input type="text" id="username" name="username" placeholder='E-mail' />
                     <br />
 
-                    <input type="password" id="pwd" name="pwd" />
+                    <input type="password" id="pwd" name="pwd" placeholder='Senha' />
+                    <br />
+                    <p>Não tenho Cadastro</p>
+                    <input type="submit" value='Entrar' />
                 </form>
 
 
