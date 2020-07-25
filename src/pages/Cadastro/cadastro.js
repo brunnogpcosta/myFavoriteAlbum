@@ -8,7 +8,7 @@ class Cadastro extends Component {
         return (
             <div className='container'>
 
-                <form>
+                <form className='formCadastro'>
                     <h2>Cadastro</h2>
                     <input type="email" id="username" name="username" placeholder='E-mail' required />
                     <br />
@@ -20,7 +20,7 @@ class Cadastro extends Component {
 
                     <p>Tenho Cadastro</p>
                     
-                    <input type="submit" value='Cadastrar' />
+                    <input type="submit"  className='enviarCadastro' value='Cadastrar' />
                 </form>
 
 

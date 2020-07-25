@@ -10,7 +10,7 @@ class Login extends Component {
         return (
             <div className='container'>
 
-                <form>
+                <form className='formLogin'>
                     <h2>Login</h2>
                     <input type="email" id="username" name="username" placeholder='E-mail' required />
                     <br />
@@ -20,7 +20,7 @@ class Login extends Component {
 
                     <p>Não tenho Cadastro</p>
                     
-                    <input type="submit" value='Entrar' />
+                    <input type="submit" id='envi' value='Entrar' />
                 </form>
 
 

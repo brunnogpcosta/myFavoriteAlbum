@@ -4,7 +4,7 @@
     justify-content: center;
 }
 
-form {
+.formUpload {
     margin-top: 150px;
     display: flex;
     flex-direction: column;
@@ -16,13 +16,13 @@ form {
     box-shadow: 0px 0px 10px rgb(27, 27, 27);
 }
 
-form h2 {
+.formUpload h2 {
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 
-figure{
+.formUpload figure{
     width: 80%;
     height: 200px;
     border: 1px solid  rgb(191, 211, 16);
@@ -32,27 +32,33 @@ figure{
 
 
 
-form input {
+.formUpload input {
     width: 400px;
-    height: 25px;
+    height: 30px;
 }
 
 
-form input[type='submit']:hover {
+.formUpload .enviarFoto{
+margin-bottom: 25px;
+
+}
+
+.formUpload .enviarFoto:hover {
     background-color: rgb(191, 211, 16);
     border: 1px solid black;
     font-weight: bolder;
     cursor: pointer;
+   
 }
 
-input:focus {
+.formUpload input:focus {
     background-color: rgb(191, 211, 16);
     border: 1px solid rgb(62, 68, 5);
 }
 
 
 
-input::-webkit-input-placeholder{
+.formUpload input::-webkit-input-placeholder{
     padding-left: 10px;
     color: rgb(70, 70, 70);
 }

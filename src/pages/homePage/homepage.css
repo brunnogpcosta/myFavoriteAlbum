@@ -14,7 +14,7 @@
     padding:10px 0;
     margin:0px;
     list-style:none;
-    background-color:rgb(191, 211, 16);
+    background-color:rgb(139, 139, 139);
     border: 1px solid black;
     
     
@@ -97,7 +97,7 @@ figure {
 
 .pagination button{
     padding: 5px;
-    background-color:rgb(191, 211, 16);
+    background-color:rgb(139, 139, 139);
     border: 1px solid black;
     cursor: pointer;
 }

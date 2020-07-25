@@ -4,7 +4,7 @@
     justify-content: center;
 }
 
-form {
+.formLogin{
     margin-top: 150px;
     display: flex;
     flex-direction: column;
@@ -16,27 +16,27 @@ form {
     box-shadow: 0px 0px 10px rgb(27, 27, 27);
 }
 
-form h2 {
+.formLogin h2 {
     margin-top: 20px;
     margin-bottom: 40px;
 }
 
-form input {
+.formLogin input {
     width: 200px;
     height: 25px;
 }
 
-form p {
+.formLogin p {
     font-weight: bolder;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
-form p:hover {
+.formLogin p:hover {
     cursor: pointer;
 }
 
-form input[type='submit']:hover {
+.formLogin #envi:hover {
     background-color: rgb(191, 211, 16);
     border: 1px solid black;
     font-weight: bolder;

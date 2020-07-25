@@ -4,7 +4,7 @@
     justify-content: center;
 }
 
-form {
+.formCadastro {
     margin-top: 150px;
     display: flex;
     flex-direction: column;
@@ -16,27 +16,27 @@ form {
     box-shadow: 0px 0px 10px rgb(27, 27, 27);
 }
 
-form h2 {
+.formCadastro h2 {
     margin-top: 20px;
     margin-bottom: 40px;
 }
 
-form input {
+.formCadastro input {
     width: 200px;
     height: 25px;
 }
 
-form p {
+.formCadastro p {
     font-weight: bolder;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
-form p:hover {
+.formCadastro p:hover {
     cursor: pointer;
 }
 
-form input[type='submit']:hover {
+.formCadastro .enviarCadastro:hover {
     background-color: rgb(191, 211, 16);
     border: 1px solid black;
     font-weight: bolder;
@@ -44,14 +44,14 @@ form input[type='submit']:hover {
     
 }
 
-input:focus {
+.formCadastro input:focus {
     background-color: rgb(191, 211, 16);
     border: 1px solid rgb(62, 68, 5);
 }
 
 
 
-input::-webkit-input-placeholder{
+.formCadastro input::-webkit-input-placeholder{
     padding-left: 10px;
     color: rgb(70, 70, 70);
 }

@@ -10,7 +10,7 @@ class Upload extends Component {
 
             <div className='container'>
 
-                <form>
+                <form className='formUpload'>
                     <h2>Upload de Imagens</h2>
 
 
@@ -31,7 +31,7 @@ class Upload extends Component {
                     <br />
 
     
-                    <input type="submit" value='Salvar' />
+                    <input type="submit" className='enviarFoto' value='Salvar' />
                 </form>
 
 
