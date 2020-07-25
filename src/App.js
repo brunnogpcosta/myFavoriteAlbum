@@ -18,7 +18,7 @@ function App() {
       <HomePage />
       */}
 
-      <Upload />
+<HomePage />
 
 
     </div>
