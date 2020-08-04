@@ -7,20 +7,12 @@ import HomePage from '../src/pages/homePage/homepage.js'
 
 import './App.css';
 import './style.css';
+import Routes from './routes.js';
 
 function App() {
   return (
     <div className="App">
-      {/*
-      <Login /> 
-      <Cadastro />
-      <Upload />
-      <HomePage />
-      */}
-
-<HomePage />
-
-
+      <Routes />
     </div>
   );
 }
