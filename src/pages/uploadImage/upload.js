@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 
-
 import '../uploadImage/upload.css'
 
 class Upload extends Component {

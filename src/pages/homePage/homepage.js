@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 
+import { Link } from 'react-router-dom' 
+
 import '../homePage/homepage.css'
+import Upload from '../uploadImage/upload'
 
 class HomePage extends Component {
 
@@ -11,7 +14,7 @@ class HomePage extends Component {
 
                 <div className='leftMenu'>
                     <ul>
-                        <li>Upload</li>
+                        <li><Link to="/upload">Upload</Link></li>
                         <li>Configurações</li>
                         <li>Sair</li>
 
