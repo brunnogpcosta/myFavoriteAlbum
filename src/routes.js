@@ -5,6 +5,7 @@ import Login from './pages/Login/login'
 import Cadastro from './pages/Cadastro/cadastro';
 import HomePage from './pages/homePage/homepage';
 import Upload from './pages/uploadImage/upload';
+import NotFound from './pages/NotFound/notFound'
 
 
 function Routes() {
@@ -14,9 +15,10 @@ function Routes() {
 
         <BrowserRouter>
             <Route path="/" exact component={Login} />
-            <Route path="/cadastro" component={Cadastro} />
-            <Route path="/galeria" component={HomePage} />
-            <Route path="/upload" component={Upload} />
+            <Route path="/cadastro" exact component={Cadastro} />
+            <Route path="/galeria" exact component={HomePage} />
+            <Route path="/upload" exact component={Upload} />
+            <Route component={NotFound} />
 
         </BrowserRouter>
 
