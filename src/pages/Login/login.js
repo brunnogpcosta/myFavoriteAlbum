@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom'
+
 
 import '../Login/login.css'
 
@@ -18,7 +20,8 @@ class Login extends Component {
                     <input type="password" id="pwd" name="pwd" placeholder='Senha' required />
                     <br />
 
-                    <p>Não tenho Cadastro</p>
+                    <p><Link to="/cadastro" className="linkStyle">Não Tenho Cadastro</Link></p>
+
 
                     <input type="submit" id='envi' value='Entrar' />
                 </form>

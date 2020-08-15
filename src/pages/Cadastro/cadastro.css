@@ -36,6 +36,19 @@
     cursor: pointer;
 }
 
+.formCadastro p .linkStyle {
+    text-decoration: none;
+    color: black;
+}
+
+.formCadastro p .linkStyle:hover {
+    background:  rgba(191, 211, 16, 0.589);
+    padding: 5px 64.5px;
+ 
+}
+
+
+
 .formCadastro .enviarCadastro:hover {
     background-color: rgb(191, 211, 16);
     border: 1px solid black;

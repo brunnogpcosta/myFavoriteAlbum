@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom'
 
 import '../Cadastro/cadastro.css'
 
@@ -18,7 +19,7 @@ class Cadastro extends Component {
                     <input type="password" id="pwdConfirme" name="pwd" placeholder='Repita a Senha' required />
                     <br />
 
-                    <p>Tenho Cadastro</p>
+                    <p><Link to="/" className="linkStyle">Tenho Cadastro</Link></p>
                     
                     <input type="submit"  className='enviarCadastro' value='Cadastrar' />
                 </form>
