@@ -5,6 +5,18 @@
     height: 100vh;
 }
 
+#fechar {
+    float: right;
+    font-size: 3rem;
+    color: white;
+    padding: 1rem 2rem 0 0;
+}
+
+.fechar {
+    text-decoration: none;
+    color: white;
+}
+
 .formUpload {
     display: flex;
     flex-direction: column;
@@ -21,26 +33,22 @@
     margin-bottom: 20px;
 }
 
-
-.formUpload figure{
+.formUpload figure {
     width: 80%;
     height: 200px;
-    border: 1px solid  rgb(191, 211, 16);
-    background-color: rgba(191, 211, 16, 0.11);;
+    border: 1px solid rgb(191, 211, 16);
+    background-color: rgba(191, 211, 16, 0.11);
+    ;
     margin-bottom: 20px;
 }
-
-
 
 .formUpload input {
     width: 400px;
     height: 30px;
 }
 
-
-.formUpload .enviarFoto{
-margin-bottom: 25px;
-
+.formUpload .enviarFoto {
+    margin-bottom: 25px;
 }
 
 .formUpload .enviarFoto:hover {
@@ -48,7 +56,6 @@ margin-bottom: 25px;
     border: 1px solid black;
     font-weight: bolder;
     cursor: pointer;
-   
 }
 
 .formUpload input:focus {
@@ -56,10 +63,7 @@ margin-bottom: 25px;
     border: 1px solid rgb(62, 68, 5);
 }
 
-
-
-.formUpload input::-webkit-input-placeholder{
+.formUpload input::-webkit-input-placeholder {
     padding-left: 10px;
     color: rgb(70, 70, 70);
 }
-

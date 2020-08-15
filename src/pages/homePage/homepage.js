@@ -16,7 +16,7 @@ class HomePage extends Component {
                     <ul>
                         <li><Link to="/upload">Upload</Link></li>
                         <li>Configurações</li>
-                        <li>Sair</li>
+                        <li><Link to="/">Sair</Link></li>
 
                     </ul>
                 </div>
