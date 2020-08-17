@@ -8,25 +8,27 @@ import PropTypes from 'prop-types'
 import '../Login/login.css'
 
 const validations = yup.object().shape({
-    user: yup.string().email().required(),
-    password: yup.string().min(8).required()
-})
+    email: yup.string().min(10, 'E-mail Inválido'),
+    password: yup.string().min(6, 'Mínimo de 6 dígitos'),
+});
 
 const Login = ({ handleSubmit, initialValues }) => (
     <div className='containerLogin'>
 
-        <Formik initialValues={initialValues} onSubmit={handleSubmit} validationSchema={validations}>
+        <Formik initialValues={{ email: '', password: '' }} onSubmit={(values) => {
+            console.log(values);
+        }} validationSchema={validations}>
             <FormikForm className='formLogin'>
                 <h2>Login</h2>
-                <div className="Form-Group">
-                    <Field className="Form-Field" name="user" id="username" placeholder='E-mail' />
-                    <ErrorMessage className="Form-Error" component="span" name="user" />
-                </div>
+                
+                    <Field className="Form-Field" name="email" id="username" placeholder='E-mail' />
+                    <ErrorMessage className="Form-Error" component="span" name="email" />
+               
                 <br />
-                <div className="Form-Group">
-                    <Field className="Form-Field" name="password" placeholder='Senha'/>
-                    <ErrorMessage className="Form-Error" component="span" name="password"/>
-                </div>
+               
+                    <Field className="Form-Field" name="password" placeholder='Senha' required/>
+                    <ErrorMessage className="Form-Error" component="span" name="password" />
+              
 
                 <br />
                 <p><Link to="/cadastro" className="linkStyle">Não Tenho Cadastro</Link></p>
@@ -37,16 +39,6 @@ const Login = ({ handleSubmit, initialValues }) => (
         </Formik>
     </div >
 )
-
-
-Login.propTypes = {
-    handleSubmit: PropTypes.func.isRequired,
-    initialValues: PropTypes.object.isRequired
-}
-
-
-
-
 
 
 
