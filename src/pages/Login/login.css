@@ -60,9 +60,9 @@ input::-webkit-input-placeholder {
 }
 
 .Form-Error {
-    font-size: 12px;
+    font-size: 8px;
     color: rgb(247, 100, 47);
     font-weight: bold;
-    margin-top: 2px;
-    align-content: left;
+    
+ 
 }
