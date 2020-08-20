@@ -21,9 +21,9 @@ class HomePage extends Component {
 
                 <div className='Menu'>
                     <ul>
-                        <li><Link to="/upload"><img src={upl}></img></Link></li>
-                        <li><Link to=""><img src={cofg}></img></Link></li>
-                        <li><Link to="/"><img src={lout}></img></Link></li>
+                        <li><Link to="/upload"><img src={upl} alt="Upload de Fotos" title="Upload de Fotos"></img></Link></li>
+                        <li><Link to=""><img src={cofg} alt="Configurações" title="Configurações"></img></Link></li>
+                        <li><Link to="/"><img src={lout} alt="Sair" title="Sair"></img></Link></li>
                     </ul>
                 </div>
 
