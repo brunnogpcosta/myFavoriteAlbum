@@ -16,8 +16,8 @@ class Home extends Component {
                     <h3>A sua galeria preferida</h3>
 
                     <div className="butoes">
-                        <button>Entrar</button>
-                        <button>Cadastrar</button>
+                        <button><Link to="/Login" className="ajeitaLink">Entrar</Link></button>
+                        <button><Link to="/Cadastro" className="ajeitaLink">Cadastrar</Link></button>
                     </div>
                 </div>
             </div>

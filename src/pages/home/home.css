@@ -49,10 +49,16 @@
     width: 10rem;
     font-size: 1rem;
     box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    
 }
 
 .butoes button:hover {
     background-color: #8fe945fd;
     border: none;
     transition: .5s;
+}
+
+.ajeitaLink{
+    text-decoration: none;
+    color: black;
 }

@@ -2,17 +2,17 @@ import React, { Component } from 'react'
 
 import { Link } from 'react-router-dom'
 
-import '../homePage/homepage.css'
+import '../Galeria/galeria.css'
 import Upload from '../uploadImage/upload'
-import foto from '../homePage/foto-pessoa.jpg'
-import upl from '../homePage/upload.svg'
-import cofg from '../homePage/settings.svg'
-import lout from '../homePage/log-out.svg'
+import foto from '../Galeria/foto-pessoa.jpg'
+import upl from '../Galeria/upload.svg'
+import cofg from '../Galeria/settings.svg'
+import lout from '../Galeria/log-out.svg'
 
 import '../../index.css'
 
 
-class HomePage extends Component {
+class Galeria extends Component {
 
     render() {
         return (
@@ -22,7 +22,7 @@ class HomePage extends Component {
                 <div className='Menu'>
                     <ul>
                         <li><Link to="/upload"><img src={upl} alt="Upload de Fotos" title="Upload de Fotos"></img></Link></li>
-                        <li><Link to=""><img src={cofg} alt="Configurações" title="Configurações"></img></Link></li>
+                        <li><Link to="/dasdasd"><img src={cofg} alt="Configurações" title="Configurações"></img></Link></li>
                         <li><Link to="/"><img src={lout} alt="Sair" title="Sair"></img></Link></li>
                     </ul>
                 </div>
@@ -96,4 +96,4 @@ class HomePage extends Component {
     }
 }
 
-export default HomePage;
+export default Galeria;
