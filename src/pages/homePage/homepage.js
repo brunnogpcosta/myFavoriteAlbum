@@ -5,6 +5,10 @@ import { Link } from 'react-router-dom'
 import '../homePage/homepage.css'
 import Upload from '../uploadImage/upload'
 import foto from '../homePage/foto-pessoa.jpg'
+import upl from '../homePage/upload.svg'
+import cofg from '../homePage/settings.svg'
+import lout from '../homePage/log-out.svg'
+
 
 class HomePage extends Component {
 
@@ -15,10 +19,9 @@ class HomePage extends Component {
 
                 <div className='Menu'>
                     <ul>
-                        <li><Link to="/upload">Upload</Link></li>
-                        <li>Configurações</li>
-                        <li><Link to="/">Sair</Link></li>
-
+                        <li><Link to="/upload"><img src={upl}></img></Link></li>
+                        <li><Link to=""><img src={cofg}></img></Link></li>
+                        <li><Link to="/"><img src={lout}></img></Link></li>
                     </ul>
                 </div>
 
@@ -81,10 +84,6 @@ class HomePage extends Component {
                         <button>Próxima</button>
                     </div>
                 </div>
-
-
-
-
 
 
             </div>
