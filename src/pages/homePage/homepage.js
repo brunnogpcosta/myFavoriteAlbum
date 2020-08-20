@@ -9,6 +9,8 @@ import upl from '../homePage/upload.svg'
 import cofg from '../homePage/settings.svg'
 import lout from '../homePage/log-out.svg'
 
+import '../../index.css'
+
 
 class HomePage extends Component {
 
